@@ -1,0 +1,27 @@
+{
+  "name": "linevych_hungrypeo",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "2.26.14",
+    "gulp": "4.0.2",
+    "gulp-autoprefixer": "8.0.0",
+    "gulp-sass": "4.1.0"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/20210502-FE/shcherbakov_hungrypeople.git"
+  },
+  "bugs": {
+    "url": "https://github.com/20210502-FE/shcherbakov_hungrypeople/issues"
+  },
+  "homepage": "https://github.com/20210502-FE/shcherbakov_hungrypeople#readme",
+  "description": ""
+}
