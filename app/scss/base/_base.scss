@@ -23,7 +23,7 @@ li {
 }
 
 .wrapper {
-  max-width: 1026px;
+  max-width: 1290px;
   margin: 0 auto;
 }
 
@@ -38,4 +38,20 @@ li {
   line-height: 62px;
   text-align: center;
   letter-spacing: 1px;
+}
+
+.line {
+  width: 60px;
+  height: 5.11px;
+  background: $color-corn;
+  border-radius: 50px;
+}
+
+.frame {
+  width: 250px;
+  height: 250px;
+  border: 20px solid #E8C300;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 0px 100px rgba(0, 0, 0, 0.5));
+  border-radius: 5px;
 }

@@ -1,0 +1,46 @@
+.about-us {
+  height: 675px;
+}
+
+.about-us__content {
+  width: 600px;
+  height: 260px;
+  margin: 220px 35px 0 18px;
+}
+
+.about-us__title {
+  font-size: 36px;
+  line-height: 48px;
+ font-family: $d-font-bold;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+
+.about-us__line {
+  margin-bottom: 18px;
+}
+
+.about-us__sub-title {
+  font-family: $s-font-bold;
+  font-size: 17px;
+  line-height: 24px;
+  margin-bottom: 25px;
+}
+
+.about-us__text {
+  font-family: $s-font-regular;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.about-us__img {
+  width: 475px;
+  height: 475px;
+  margin-top: 50px;
+}
+
+.about-us__frame {
+  bottom: 213px;
+ right: 80px;
+}
