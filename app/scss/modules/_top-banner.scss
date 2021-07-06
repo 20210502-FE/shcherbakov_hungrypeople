@@ -1,4 +1,5 @@
 .top-ban {
+  color: $color-white;
   font-family: $s-font-regular;
   max-width: 1440px;
   width: 100%;
@@ -11,41 +12,108 @@
   display: flex;
 }
 
+.nav__left {
+  width: 442px;
+  height: 100px;
+  margin-left: 128px;
+}
+
 .nav__left ul {
   display: flex;
+  justify-content: space-between;
+  font-weight: $s-font-bold;
+  font-size: 12px;
+  line-height: 18px;
+  margin-top: 44px;
 }
 
-.nav__left ul:first-child {
-  margin-left: 80px;
-}
-
-
-.nav__left li {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 133px;
-  height: 100px;
-  color: #FFFFFF;
+.nav__left li a{
+  color: $color-white;
 }
 
 .nav__logo {
   width: 150px;
   height: 150px;
-  margin: 25px 35px 0;
+  margin: 25px 75px 0;
+}
+
+.nav__right {
+  width: 442px;
+  height: 100px;
 }
 
 .nav__right ul {
   display: flex;
+  justify-content: space-between;
+  font-weight: $s-font-bold;
+  font-size: 12px;
+  line-height: 18px;
+  margin-top: 44px;
 }
 
-.nav__right li {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 133px;
-  height: 100px;
-  color: #FFFFFF;
+.nav__right li a {
+  color: $color-white;
 }
+
+.ban__schedule {
+  writing-mode: vertical-rl;
+  transform: rotate(-180deg);
+  font-weight: $s-font-bold;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: center;
+  margin: 159px 0 0 84px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ban__main {
+  text-align: center;
+  margin-top: 153px;
+}
+
+.top__title {
+  font-family: $s-font-bold;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+}
+
+.ban__title {
+  font-family: $d-font-bold;
+  font-style: normal;
+  font-size: 96px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.ban__line {
+  width: 60px;
+  height: 5.11px;
+  margin-bottom: 30px;
+  background: $color-corn;
+  border-radius: 50px;
+}
+
+.ban__buttons {
+  display: flex;
+  margin-bottom: 92px;
+}
+
+.ban__social {
+  margin: 162px 77px 0 0;
+}
+
+.instagram {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border-color: $color-white;
+}
+
+
+
 
 
