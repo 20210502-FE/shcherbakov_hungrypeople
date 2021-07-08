@@ -1,0 +1,48 @@
+.book-table__content {
+  width: 570px;
+  height: 360px;
+  margin: 173px 20px 0 60px;
+}
+
+.book-table__title {
+  margin-bottom: 20px;
+}
+
+.book-table__line {
+  margin-bottom: 20px;
+}
+
+.table__input__wrapper {
+  width: 568px;
+  height: 275px;
+}
+
+.table__input-100 {
+  width: 568px;
+  height: 60px;
+  background-color: $color-corn;
+}
+
+.table__input-100::placeholder {
+  color:$color-white;
+}
+
+.table__input-20::placeholder {
+  padding-left: 20px;
+}
+
+.book-table__img img {
+  width: 475px;
+  height: 475px;
+  margin-top: 50px;
+}
+
+.book-table__frame {
+  margin-top: 225px;
+  right: 80px;
+}
+
+.book-table__bottom__title {
+  font-size: 12px;
+  font-family: $s-font-regular;
+}
