@@ -1,0 +1,78 @@
+.chocolate-pancakes {
+  height: 675px;
+  background: url("../../assets/images/chocolate-pancakes/chocolate-pancakes-bg.png");
+}
+
+.chocolate-pancakes__top__title {
+  color: $color-white;
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  line-height: 14px;
+  font-family: $s-font-bold;
+  padding-top: 43px;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.chocolate-pancakes__img-bg {
+  background: url("../../assets/images/chocolate-pancakes/chocolate-pancakes.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: -7px 0 0 70px;
+}
+
+.chocolate-pancakes__frame {
+  margin: 164px 0 0 -63px;
+}
+
+.chocolate-pancakes__content {
+  width: 600px;
+  margin-top: 158px;
+}
+
+.chocolate-pancakes__title {
+  font-size: 36px;
+  line-height: 48px;
+  font-family: $d-font-bold;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+  color: $color-white;
+}
+
+.chocolate-pancakes__line {
+  margin-bottom: 18px;
+}
+
+.chocolate-pancakes__sub-title {
+  font-family: $s-font-bold;
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 25px;
+  color: #E7E8E6;
+}
+
+.chocolate-pancakes__text {
+  font-family: $s-font-regular;
+  font-size: 14px;
+  line-height: 18px;
+  color: #E7E8E6;
+}
+
+.chocolate-pancakes__bottom__points {
+  width: 100%;
+}
+
+.pancakes__bottom__point:first-child {
+  margin-left: 0;
+}
+
+.pancakes__bottom__point {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: $color-white;
+  margin-left: 20px;
+}
