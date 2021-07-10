@@ -5,7 +5,7 @@
 .about-us__content {
   width: 600px;
   height: 260px;
-  margin: 220px 35px 0 18px;
+  margin: 220px 25px 0 14px;
 }
 
 .about-us__title {
@@ -34,13 +34,14 @@
   line-height: 24px;
 }
 
-.about-us__img {
-  width: 475px;
-  height: 475px;
-  margin-top: 50px;
+.about-us__img-bg {
+  margin-top: 46px;
+  background: url("../../assets/images/about-us/about-img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.about-us__frame {
-  margin-top: 213px;
-  right: 80px;
+
+.about-ua__frame {
+  margin: 163px 0 0 351px;
 }

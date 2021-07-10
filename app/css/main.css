@@ -113,9 +113,14 @@ li {
   border-radius: 50px;
 }
 
+.wrapper__img {
+  width: 573px;
+  height: 573px;
+}
+
 .frame {
-  width: 250px;
-  height: 250px;
+  width: 52%;
+  height: 52%;
   border: 20px solid #E8C300;
   box-sizing: border-box;
   filter: drop-shadow(0px 0px 100px rgba(0, 0, 0, 0.5));
@@ -201,7 +206,7 @@ li {
 .about-us__content {
   width: 600px;
   height: 260px;
-  margin: 220px 35px 0 18px;
+  margin: 220px 25px 0 14px;
 }
 
 .about-us__title {
@@ -230,15 +235,15 @@ li {
   line-height: 24px;
 }
 
-.about-us__img {
-  width: 475px;
-  height: 475px;
-  margin-top: 50px;
+.about-us__img-bg {
+  margin-top: 46px;
+  background: url("../../assets/images/about-us/about-img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.about-us__frame {
-  margin-top: 213px;
-  right: 80px;
+.about-ua__frame {
+  margin: 163px 0 0 351px;
 }
 
 .top-ban {
@@ -355,10 +360,15 @@ li {
 .book-table__content {
   width: 570px;
   height: 360px;
-  margin: 173px 20px 0 60px;
+  margin: 163px 0 0 60px;
 }
 
 .book-table__title {
+  font-size: 36px;
+  line-height: 48px;
+  font-family: "Dosis Bold";
+  text-transform: uppercase;
+  border-radius: 5px;
   margin-bottom: 20px;
 }
 
@@ -378,27 +388,38 @@ li {
 }
 
 .table__input-100::placeholder {
+  font-family: "Open Sans Regular";
+  font-size: 14px;
+  line-height: 19px;
   color: #FFFFFF;
 }
 
 .table__input-20::placeholder {
+  font-family: "Open Sans Regular";
+  font-size: 14px;
+  line-height: 19px;
   padding-left: 20px;
 }
 
-.book-table__img img {
-  width: 475px;
-  height: 475px;
-  margin-top: 50px;
+.book-a-table__img-bg {
+  background: url("../../assets/images/book-a-table/book-a-table-img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 50px 0 0 23px;
 }
 
-.book-table__frame {
-  margin-top: 225px;
-  right: 80px;
+.book-a-table__frame {
+  margin: 174px 0 0 339px;
 }
 
 .book-table__bottom__title {
   font-size: 12px;
-  font-family: "Open Sans Regular";
+  line-height: 12px;
+  font-family: "Open Sans Bold";
+  color: #333333;
+  opacity: .5;
+  width: 100%;
+  margin-bottom: 45px;
 }
 
 .master-chef {
@@ -416,16 +437,15 @@ li {
   padding-top: 43px;
 }
 
-.master-chef__img {
-  width: 475px;
-  height: 475px;
-  margin: -8px 22px 0 66px;
-  overflow: hidden;
+.master-chef__img-bg {
+  background: url("../../assets/images/master-chef/rectangle.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: -7px 0 0 70px;
 }
 
 .master-chef__frame {
-  margin-top: 157px;
-  left: 80px;
+  margin: 164px 0 0 -63px;
 }
 
 .master-chef__content {

@@ -13,16 +13,15 @@
   padding-top: 43px;
 }
 
-.master-chef__img {
-  width: 475px;
-  height: 475px;
-  margin: -8px 22px 0 66px;
-  overflow: hidden;
+.master-chef__img-bg {
+  background: url("../../assets/images/master-chef/rectangle.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: -7px 0 0 70px;
 }
 
 .master-chef__frame {
-  margin-top: 157px;
-  left: 80px;
+  margin: 164px 0 0 -63px;
 }
 
 .master-chef__content {
