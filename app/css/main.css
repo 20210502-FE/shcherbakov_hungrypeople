@@ -20,6 +20,17 @@
   /* Legacy iOS */
 }
 
+/* dosis-500 - latin */
+@font-face {
+  font-family: 'Dosis 500';
+  font-style: normal;
+  font-weight: 500;
+  src: url("../assets/fonts/dosis-v19-latin-500.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../assets/fonts/dosis-v19-latin-500.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/dosis-v19-latin-500.woff2") format("woff2"), url("../assets/fonts/dosis-v19-latin-500.woff") format("woff"), url("../assets/fonts/dosis-v19-latin-500.ttf") format("truetype"), url("../assets/fonts/dosis-v19-latin-500.svg#Dosis") format("svg");
+  /* Legacy iOS */
+}
+
 /* dosis-700 - latin */
 @font-face {
   font-family: 'Dosis Bold';
@@ -197,10 +208,6 @@ li {
   color: #8C8C8C;
   background-color: #E5E5E5;
   border: none;
-}
-
-.about-us {
-  height: 675px;
 }
 
 .about-us__content {
@@ -423,7 +430,6 @@ li {
 }
 
 .chocolate-pancakes {
-  height: 675px;
   background: url("../../assets/images/chocolate-pancakes/chocolate-pancakes-bg.png");
 }
 
@@ -498,11 +504,85 @@ li {
   height: 10px;
   border-radius: 50%;
   background-color: #FFFFFF;
-  margin-left: 20px;
+  margin: 0 0 40px 20px;
+}
+
+.delicious-menu__header {
+  width: 600px;
+  padding-top: 105px;
+  margin-bottom: 30px;
+}
+
+.delicious-menu__title {
+  font-size: 36px;
+  line-height: 48px;
+  font-family: "Dosis Bold";
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+  color: #000000;
+}
+
+.delicious-menu__line {
+  margin-bottom: 18px;
+}
+
+.delicious-menu__sub-title {
+  font-family: "Open Sans Bold";
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 25px;
+  color: #000000;
+}
+
+.delicious-menu__nav {
+  width: 100%;
+  margin-bottom: 51px;
+}
+
+.delicious-menu__nav__block {
+  width: 130px;
+  height: 53px;
+  border-right: 1px solid rgba(51, 51, 51, 0.2);
+}
+
+.delicious-menu__nav__block:last-child {
+  border-right: none;
+}
+
+.delicious-menu__nav__link {
+  font-size: 12px;
+  line-height: 18px;
+  color: #333333;
+  font-family: "Open Sans Bold";
+  text-transform: uppercase;
+}
+
+.delicious-menu__content__price {
+  width: 100%;
+  padding-left: 7px;
+  margin-bottom: 100px;
+}
+
+.delicious-menu__price {
+  width: 363px;
+  height: 66px;
+}
+
+.delicious-menu__price-food {
+  font-size: 22px;
+  line-height: 18px;
+  font-family: "Dosis Light";
+}
+
+.delicious-menu__content__description-food {
+  font-size: 12px;
+  line-height: 18px;
+  font-family: "Open Sans Regular";
+  color: #999999;
 }
 
 .master-chef {
-  height: 675px;
   background: url("../../assets/images/master-chef/specialty's-bg.png");
 }
 
