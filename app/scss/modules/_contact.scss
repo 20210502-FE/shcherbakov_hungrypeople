@@ -1,0 +1,108 @@
+.contact__content {
+  width:600px;
+  margin: 100px 0 19px;
+}
+
+.contact__title {
+  font-size: 36px;
+  line-height: 48px;
+  font-family: $d-font-bold;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+  color: $color-black;
+}
+
+.contact__line {
+  margin-bottom: 18px;
+}
+
+.contact__sub-title {
+  font-family: $s-font-bold;
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 25px;
+  color: $color-black;
+}
+
+.contact__content__input {
+  width: 100%;
+  margin-bottom: 75px;
+}
+
+.contact__content__input__first-line { width: 420px;
+  height: 60px;
+  background-color: $color-mercury;
+  border-radius: 5px;
+  border: none;
+  font-size: 14px;
+  text-indent: 20px;
+  line-height: 19px;
+  color: rgba(51, 51, 51, 0.5);
+  font-family: $s-font-regular;
+}
+
+.contact__content__input__email {
+  margin-left: 11px;
+}
+
+.contact__content__input__phone {
+  margin-left: 10px;
+}
+
+.contact__content__input__message {
+  width: 1280px;
+  height: 120px;
+  margin: 10px 0 10px;
+  background-color: $color-mercury;
+  border-radius: 5px;
+  border: none;
+  font-size: 14px;
+  text-indent: 20px;
+  line-height: 19px;
+  color: rgba(51, 51, 51, 0.5);
+  font-family: $s-font-regular;
+  padding-bottom: 50px;
+}
+
+.contact__content__input__send-message {
+  width: 640px;
+  height: 60px;
+  background-color: $color-corn;
+  border-radius: 5px;
+  border: none;
+  font-size: 12px;
+  line-height: 20px;
+  font-family: $s-font-bold;
+  color: $color-white;
+  text-transform: uppercase;
+}
+
+.contact__content__input__information {
+  width: 640px;
+  height: 60px;
+  font-family: $s-font-bold;
+  font-size: 12px;
+  line-height: 12px;
+  color: $color-dusty-gray;
+  margin: -36px 0 0 12px;
+}
+
+.fa-map-marker-alt {
+  margin-right: 10px;
+  color: $color-corn;
+  font-size: 14px;
+}
+
+.fa-phone {
+  margin: 0 10px 15px;
+  color: $color-corn;
+  font-size: 14px;
+}
+
+.fa-envelope {
+  margin: 0 10px 15px;
+  color: $color-corn;
+  font-size: 14px;
+}
+

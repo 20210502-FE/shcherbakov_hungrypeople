@@ -130,8 +130,8 @@ li {
 }
 
 .frame {
-  width: 52%;
-  height: 52%;
+  width: 43%;
+  height: 43%;
   border: 20px solid #E8C300;
   box-sizing: border-box;
   filter: drop-shadow(0px 0px 100px rgba(0, 0, 0, 0.5));
@@ -164,6 +164,10 @@ li {
 
 .flex_between {
   justify-content: space-between;
+}
+
+.flex-end {
+  justify-content: flex-end;
 }
 
 .position_absolute {
@@ -250,7 +254,7 @@ li {
 }
 
 .about-ua__frame {
-  margin: 163px 0 0 351px;
+  margin: 158px 0 0 401px;
 }
 
 .top-ban {
@@ -394,6 +398,13 @@ li {
   background-color: #E8C300;
 }
 
+.table__input-50::placeholder {
+  font-family: "Open Sans Regular";
+  font-size: 14px;
+  line-height: 19px;
+  padding-left: 20px;
+}
+
 .table__input-100::placeholder {
   font-family: "Open Sans Regular";
   font-size: 14px;
@@ -401,11 +412,24 @@ li {
   color: #FFFFFF;
 }
 
-.table__input-20::placeholder {
-  font-family: "Open Sans Regular";
-  font-size: 14px;
-  line-height: 19px;
-  padding-left: 20px;
+.input__form__arrow__people {
+  width: 10px;
+  height: 10px;
+  border-top: 3px solid #8C8C8C;
+  border-right: 3px solid #8C8C8C;
+  transform: rotate(135deg);
+  position: absolute;
+  margin: 90px 0 0 535px;
+}
+
+.input__form__arrow__time {
+  width: 10px;
+  height: 10px;
+  border-top: 3px solid #8C8C8C;
+  border-right: 3px solid #8C8C8C;
+  transform: rotate(135deg);
+  position: absolute;
+  margin: 155px 0 0 535px;
 }
 
 .book-a-table__img-bg {
@@ -416,7 +440,7 @@ li {
 }
 
 .book-a-table__frame {
-  margin: 174px 0 0 339px;
+  margin: 174px 0 0 390px;
 }
 
 .book-table__bottom__title {
@@ -454,7 +478,7 @@ li {
 }
 
 .chocolate-pancakes__frame {
-  margin: 164px 0 0 -63px;
+  margin: 164px 0 0 -53px;
 }
 
 .chocolate-pancakes__content {
@@ -505,6 +529,115 @@ li {
   border-radius: 50%;
   background-color: #FFFFFF;
   margin: 0 0 40px 20px;
+}
+
+.contact__content {
+  width: 600px;
+  margin: 100px 0 19px;
+}
+
+.contact__title {
+  font-size: 36px;
+  line-height: 48px;
+  font-family: "Dosis Bold";
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+  color: #000000;
+}
+
+.contact__line {
+  margin-bottom: 18px;
+}
+
+.contact__sub-title {
+  font-family: "Open Sans Bold";
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 25px;
+  color: #000000;
+}
+
+.contact__content__input {
+  width: 100%;
+  margin-bottom: 75px;
+}
+
+.contact__content__input__first-line {
+  width: 420px;
+  height: 60px;
+  background-color: #E5E5E5;
+  border-radius: 5px;
+  border: none;
+  font-size: 14px;
+  text-indent: 20px;
+  line-height: 19px;
+  color: rgba(51, 51, 51, 0.5);
+  font-family: "Open Sans Regular";
+}
+
+.contact__content__input__email {
+  margin-left: 11px;
+}
+
+.contact__content__input__phone {
+  margin-left: 10px;
+}
+
+.contact__content__input__message {
+  width: 1280px;
+  height: 120px;
+  margin: 10px 0 10px;
+  background-color: #E5E5E5;
+  border-radius: 5px;
+  border: none;
+  font-size: 14px;
+  text-indent: 20px;
+  line-height: 19px;
+  color: rgba(51, 51, 51, 0.5);
+  font-family: "Open Sans Regular";
+  padding-bottom: 50px;
+}
+
+.contact__content__input__send-message {
+  width: 640px;
+  height: 60px;
+  background-color: #E8C300;
+  border-radius: 5px;
+  border: none;
+  font-size: 12px;
+  line-height: 20px;
+  font-family: "Open Sans Bold";
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.contact__content__input__information {
+  width: 640px;
+  height: 60px;
+  font-family: "Open Sans Bold";
+  font-size: 12px;
+  line-height: 12px;
+  color: #999999;
+  margin: -36px 0 0 12px;
+}
+
+.fa-map-marker-alt {
+  margin-right: 10px;
+  color: #E8C300;
+  font-size: 14px;
+}
+
+.fa-phone {
+  margin: 0 10px 15px;
+  color: #E8C300;
+  font-size: 14px;
+}
+
+.fa-envelope {
+  margin: 0 10px 15px;
+  color: #E8C300;
+  font-size: 14px;
 }
 
 .delicious-menu__header {
@@ -582,6 +715,12 @@ li {
   color: #999999;
 }
 
+.location {
+  width: 100%;
+  height: 475px;
+  background: url("../../assets/images/location/map.png");
+}
+
 .master-chef {
   background: url("../../assets/images/master-chef/specialty's-bg.png");
 }
@@ -641,4 +780,149 @@ li {
   font-size: 14px;
   line-height: 18px;
   color: #E7E8E6;
+}
+
+.private-events {
+  background: url("../../assets/images/private-events/private-events-bg.png");
+}
+
+.private-events__top__title {
+  color: #FFFFFF;
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  line-height: 14px;
+  font-family: "Open Sans Bold";
+  padding-top: 43px;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.private-events__img-bg-left {
+  background: url("../../assets/images/private-events/weddings.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: -7px 0 0 80px;
+}
+
+.private-events__img-bg-right {
+  background: url("../../assets/images/private-events/corporate-pzrties.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: -7px 0 0 -18px;
+}
+
+.private-events__frame-1 {
+  margin: 164px 0 0 -53px;
+}
+
+.private-events__frame-2 {
+  margin: 164px 0 0 401px;
+}
+
+.private-events__black__frame-left {
+  position: absolute;
+  z-index: 5;
+  width: 475px;
+  height: 80px;
+  background-color: #000000;
+  position: absolute;
+  transform: rotate(90deg);
+  color: #FFFFFF;
+  text-transform: uppercase;
+  margin: 246px 0 0 247px;
+  display: flex;
+  align-items: center;
+}
+
+.private-events__black__frame-right {
+  position: absolute;
+  z-index: 5;
+  width: 475px;
+  height: 80px;
+  background-color: #000000;
+  position: absolute;
+  transform: rotate(-90deg);
+  color: #FFFFFF;
+  text-transform: uppercase;
+  margin: 246px 0 0 -149px;
+  display: flex;
+  align-items: center;
+}
+
+.private-events__black__frame-left__text {
+  font-size: 24px;
+  line-height: 12px;
+  text-indent: 20px;
+  text-transform: uppercase;
+  margin-left: 22px;
+  font-family: "Dosis 500";
+}
+
+.private-events__black__frame-right__text {
+  font-size: 24px;
+  line-height: 12px;
+  text-indent: 20px;
+  text-transform: uppercase;
+  margin-left: 22px;
+  font-family: "Dosis 500";
+}
+
+.private-events__contact {
+  font-size: 12px;
+  line-height: 12px;
+  width: 100%;
+  color: #FFFFFF;
+  opacity: .5;
+  text-align: center;
+  font-family: "Open Sans Regular";
+  margin-bottom: 40px;
+}
+
+.interior {
+  width: 100%;
+}
+
+.interior__photo-1 {
+  width: 360px;
+  height: 360px;
+  background: url("../../assets/images/interior/1.png");
+}
+
+.interior__photo-2 {
+  width: 360px;
+  height: 360px;
+  background: url("../../assets/images/interior/2.png");
+}
+
+.interior__photo-3 {
+  width: 360px;
+  height: 360px;
+  background: url("../../assets/images/interior/3.png");
+}
+
+.interior__photo-4 {
+  width: 360px;
+  height: 360px;
+  background: url("../../assets/images/interior/4.png");
+}
+
+.footer__copyright {
+  width: 100%;
+  height: 100px;
+  background-color: #000000;
+}
+
+.footer__copyright__content {
+  font-family: "Open Sans Regular";
+  size: 12px;
+  line-height: 12px;
+  opacity: .5;
+  color: #FFFFFF;
+}
+
+.footer__copyright__content__bold {
+  font-family: "Open Sans Bold";
+  opacity: 1;
 }
