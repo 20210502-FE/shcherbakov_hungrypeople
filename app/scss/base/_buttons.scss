@@ -1,0 +1,26 @@
+.buttons  {
+  width: 200px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: $s-font-bold;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 20px;
+  color: $color-white;
+  background-color: rgba(0, 0, 0, 0.0);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+
+    &_yellow  {
+      background-color: $color-corn;
+    }
+
+    &_left-40 {
+      margin-left: 40px;
+    }
+}
+
+
+

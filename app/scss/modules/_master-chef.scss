@@ -1,0 +1,61 @@
+.master-chef {
+  background: url("../assets/images/master-chef/specialty's-bg.png");
+}
+
+.master-chef__top__title {
+  color: $color-white;
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  line-height: 14px;
+  font-family: $s-font-bold;
+  padding-top: 43px;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+}
+
+.master-chef__img-bg {
+  background: url("../assets/images/master-chef/rectangle.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: -7px 0 0 70px;
+}
+
+.master-chef__frame {
+  margin: 164px 0 0 -63px;
+}
+
+.master-chef__content {
+  width: 600px;
+  margin-top: 158px;
+}
+
+.master-chef__title {
+  font-size: 36px;
+  line-height: 48px;
+  font-family: $d-font-bold;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+  color: $color-white;
+}
+
+.master-chef__line {
+  margin-bottom: 18px;
+}
+
+.master-chef__sub-title {
+  font-family: $s-font-bold;
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 25px;
+  color: #E7E8E6;
+}
+
+.master-chef__text {
+  font-family: $s-font-regular;
+  font-size: 14px;
+  line-height: 18px;
+  color: #E7E8E6;
+}
+
